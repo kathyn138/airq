@@ -18,7 +18,7 @@ async function fetchAirData(zipcode) {
 
       fillInModal(particleBasedAQI);
       return particleBasedAQI;
-    })
+    });
 }
 
 // airnow api returns 0 - 23 as "LocalTimeZone"
@@ -50,7 +50,7 @@ function convertTime(num) {
     21: '9 PM',
     22: '10 PM',
     23: '11 PM'
-  }
+  };
 
   return conversionObj[num];
 }
@@ -91,7 +91,7 @@ function fillInModal(data) {
   <a id="airnow-link" href="https://www.airnow.gov/?city=${data["ReportingArea"]}
   &state=${data["StateCode"]}
   &country=USA">
-  ${convertTime(data["HourObserved"])} (${data["LocalTimeZone"]})</a>`
+  ${convertTime(data["HourObserved"])} (${data["LocalTimeZone"]})</a>`;
 
   let airNowPointer = document.getElementById('airnow-link');
 
@@ -100,7 +100,7 @@ function fillInModal(data) {
   airNowPointer.addEventListener('click', function () {
     var airNowLink = airNowPointer.href;
     chrome.tabs.create({ url: airNowLink });
-  })
+  });
 }
 
 
