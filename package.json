@@ -6,7 +6,9 @@
   "main": "popup.js",
   "type": "module",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.8.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
