@@ -123,7 +123,3 @@ document.addEventListener('DOMContentLoaded', function () {
     localStorage.setItem('airqZipCode', query);
   });
 });
-
-// manifest json
-// keep here for now
-// "permissions": ["activeTab", "https://www.airnow.gov/*", "https://cors-anywhere.herokuapp.com/http://www.airnowapi.org*"]
