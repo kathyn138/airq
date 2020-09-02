@@ -1,0 +1,24 @@
+{
+  "name": "airq",
+  "version": "1.0.0",
+  "description": "AirQ is a Chrome extension that pulls data from AirNow's API.",
+  "private": true,
+  "main": "popup.js",
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathyn262/airq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kathyn262/airq/issues"
+  },
+  "homepage": "https://github.com/kathyn262/airq#readme"
+}
