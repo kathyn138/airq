@@ -1,0 +1,14 @@
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 200px;
+}
+#zipcode-input {
+    width: 100px;
+}
+.zipcode-submit-btn {
+    background-color: #84d0ff;
+    color: white;
+    border: none; 
+    border-radius: 5px;
+    margin-top: 10px;
+}
