@@ -1,7 +1,7 @@
 # AirQ
 ![Screenshot of AirQ](screenshot.png)
 
-AirQ is a Chrome extension that pulls data from AirNow's API. 
+AirQ is a Chrome extension that pulls data from [AirNow's](https://www.airnow.gov/) API. 
 
 Users can search for air quality based on zip code. 
 
