@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirQ</title>
+    <link href="popup.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="modal-header">
+        <h2 class="logo">
+            <img src="icon.png" alt="logo-icon"> AirQ
+        </h2>
+    </div>
+    <div class="modal-content">
+        <p>Current air quality: <span id="air-quality"></span></p>
+        <p>Last updated at: <span id="updated-info"></span></p>
+        <form id="zipcode-form">
+            <label for="zipcode">Zip Code:</label>
+            <input type="text" id="zipcode-query">
+            <input type="submit" value="Submit" class="zipcode-submit-btn" id='wtf'>
+        </form>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
