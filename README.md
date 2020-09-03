@@ -3,7 +3,7 @@
 
 AirQ is a Chrome extension that pulls data from [AirNow's](https://www.airnow.gov/) API. 
 
-Users can search for air quality based on zip code. 
+Users can search for (PM2.5) air quality based on zip code. 
 
 Due to the API, only US zip codes can used. 
 
